@@ -284,9 +284,9 @@ static bool InitializeOpenGL ()
 		glGetShaderInfoLog = (PFNGLGETSHADERINFOLOGPROC)wglGetProcAddress("glGetShaderInfoLog");
 		glGetShaderiv = (PFNGLGETSHADERIVPROC)wglGetProcAddress("glGetShaderiv");
 	}
-#endif
 	
 	ReleaseDC(wnd, dc);
+	#endif
 	return hasGLSL;
 }
 

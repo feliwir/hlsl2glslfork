@@ -56,7 +56,6 @@ extern int yyparse(TParseContext&);
 
 %option noyywrap
 %option never-interactive
-%option outfile="Gen_hlslang.cpp"
 %x FIELDS
 
 
